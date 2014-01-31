@@ -27,10 +27,10 @@ var scrollTop = $(window).scrollTop();
        
 if (scrollTop > stickyNavTop) {   
     $('form').addClass('sticky');
-    $('.what').css({'margin-bottom': 100});
+    $('.what').css({'margin-bottom': 110});
 } else {  
     $('form').removeClass('sticky');
-    $('.what').css({'margin-bottom': 60});   
+    $('.what').css({'margin-bottom': 70});   
 }  
 };  
   
