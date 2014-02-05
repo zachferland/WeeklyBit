@@ -223,13 +223,14 @@
 		}
 
 		h3 {
-			margin-top: 190px;
+			margin-top: 138px;
 			font-size: 37px;
 			font-weight: 700;
 		}
 
 		h4 {
 			margin-top: 40px;
+			font-size: 21px;
 		}
 
 
@@ -372,6 +373,10 @@
 		margin-top: 70px;
 
 		.email {
+			.title {
+				font-size: 34px;
+			}
+
 			.body {
 				padding: 30px 7%;
 			}
