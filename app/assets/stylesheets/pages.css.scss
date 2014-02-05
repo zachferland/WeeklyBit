@@ -41,6 +41,22 @@
 	letter-spacing: 1px;
 }
 
+.share-box {
+	float: right;
+	height: 70px;
+	padding-right: 5px;
+	padding-top: 20px;
+
+	.share {
+		float: left;
+		// padding-right: 20px;
+	}
+
+	.bitcoin, .facebook {
+		padding-right: 20px;
+	}
+}
+
 // INTRO SECTION ---------------------------------------------------------------
 .intro {
 	h1 {
@@ -212,11 +228,9 @@
 
 // PURPOSE SECTION -------------------------------------------------------------
 .purpose {
-		//add green background highlight to fill in any empty space, what if 
-		//vertical is too tall
-		background: image-url("bg-network-2.png") no-repeat center top;
-		// cover?? stretch not repeat??
-		height: 651px;
+		background: url(/assets/bg-network-2.png) repeat-y center top;
+		height: auto;
+		min-height: 651px;
 
 		h3, h4 {
 			text-align: center;
@@ -231,6 +245,7 @@
 		h4 {
 			margin-top: 40px;
 			font-size: 21px;
+			padding-bottom: 50px;
 		}
 
 
