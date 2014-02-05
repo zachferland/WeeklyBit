@@ -30,6 +30,17 @@
 	// min-height: 2255px;
 }
 
+#notice {
+	background: url(/assets/highlight.png) repeat center top fixed;
+	height: 38px;
+	text-align: center;
+	color: #FFF;
+	width: 100%;
+	padding-top: 16px;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
 // INTRO SECTION ---------------------------------------------------------------
 .intro {
 	h1 {
@@ -43,7 +54,7 @@
 
 	h2 {
 		font-size: 16px;
-		margin-top: 40px;
+		margin: 64px 15px;
 		text-align: center;
 		margin-bottom: 70px;
 		font-weight: 400;
@@ -87,6 +98,11 @@
 			font-size: 15px;
 			letter-spacing: 1.5px;
 			-webkit-font-smoothing: antialiased;
+			cursor: pointer;
+
+			:hover {
+
+			}
 		}
 	}
 
@@ -105,14 +121,14 @@
 		background: image-url("down-arrow.png") no-repeat center top;
 		width: 28px;
 		height: 20px;
-		margin-top: 120px;
+		margin-top: 100px; //120
 	}
 }
 
 // NEWSLETTER SECTION ----------------------------------------------------------
 .newsletter {
 
-	margin-top: 135px;
+	margin-top: 150px; //135
 
 	.lastweek{
 		font-size: 20px;
@@ -154,7 +170,7 @@
 		}
 
 		.body {
-			padding: 30px 40px;
+			padding: 30px 40px 56px 40px;
 			.article {
 				padding: 10px 0;
 				.title {
@@ -172,17 +188,19 @@
 
 				.read-button {
 					width: 125px;
-					height: 39px;
+					height: 37px;
 					background: image-url("highlight.png") repeat;
+					cursor: pointer;
 
 					span {
 						text-align: center;
 						color: #FFF;
-						font-size: 16px;
-						padding-top: 12px;
+						font-size: 15px;
+						padding-top: 11px;
 						font-weight: 200;
 						display: block;
 						letter-spacing: 1.5px;
+						font-weight: 400;
 
 					}
 				}
@@ -222,7 +240,7 @@
 	
 	.row { 
 		h3 {
-			font-size: 31px;
+			font-size: 29px;
 			color: #404e4b;
 			font-weight: 800;
 			text-align: left;
@@ -232,13 +250,13 @@
 
 		p {
 			color: #697471;
-			font-size: 24px;
+			font-size: 23px;
 		}
 		.contributors {
 			padding: 0 40px 0 0;
 
 			.looking-for {
-				margin-top: 110px;
+				margin-top: 75px;
 				font-size: 18px;
 			}
 
@@ -247,6 +265,7 @@
 				height: 39px;
 				background: image-url("highlight.png") repeat;
 				float: left;
+				cursor: pointer;
 
 				span {
 					text-align: center;
@@ -304,6 +323,15 @@
 			li {
 				display: inline;
 				padding-right: 50px;
+
+				a {
+					color: #fff;
+					padding-bottom: 10px;
+
+					 &:hover {
+						border-bottom: 1px solid #fff;
+					}
+				}
 			}
 		}
 
@@ -412,7 +440,6 @@ h1, h2, h3, h4, h5, h6, p, span, input {
 	-webkit-font-smoothing: antialiased;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
 }
-
 
 
 

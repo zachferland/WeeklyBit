@@ -8,8 +8,11 @@
 <div class="intro row">
   <div class="large-8 small-12 columns small-centered">
   	<h1 class="title-top">THE WEEKLY BIT</h1>
-  	<h2 class="what">A weekly newsletter of the most important bitcoin content, news and developments. And other content as such and other stuff suchas. </h2>
-
+  </div>
+  <div class="large-9 small-12 columns small-centered">
+  	<h2 class="what">A weekly newsletter of the most important Bitcoin news, content and developments. Sourced from blogs, individuals, communities and other resources. It provides an easy way to follow Bitcoin, understand its underlying protocol, and to discover other resources. </h2>
+  </div>
+  <div class="large-8 small-12 columns small-centered">
   	<!-- An easy way to follow current news, develop a better understanding of bitcoin, discover resources to dive deeper and ...... new services and merchants accepting bitcoin.</h2> -->
 
 	<form action="/subscribe" method="post" class="form-inline">
@@ -20,7 +23,7 @@
 	</form>
 
 	<div class="row">
-			<p class="join-others">Join <span class="count">187</span> other subscribers.</p>
+			<p class="join-others">Join <span class="count"><%= @member_count.inspect %></span> other subscribers.</p>
 	</div>
 	<div class="down-arrow small-1 columns small-centered hide-for-small-only"></div>
   </div>
@@ -115,19 +118,21 @@
 		</div>
 		<div class="contributors large-offset-3 large-4 small-11 columns">
 			<h3>CONTRIBUTORS</h3>
-			<p>@zachferland</p>
-			<p class="looking-for">We are looking others from various financial, technical economics, education backgrounds to help us source the best content every week and give a balance view. about future potential.</p>
+			<p><a href="https://twitter.com/zachferland">@zachferland</a></p>
+			<p><a href="https://twitter.com/jcap49">@jcap49</a></p>
+			<p><a href="https://twitter.com/aliukani">@aliukani</a></p>
+			<p class="looking-for">We are looking for others from various backgrounds to help source the best content each week.</p>
 			<div class="button-contact"><span>CONTACT</span></div>
 		</div>
 		<div class="sources large-5 small-11 columns">
 			<h3>MOST USED SOURCES</h3>
-			<p>reddit.com/r/Bitcoin</p>
-			<p>coindesk.com</p>
-			<p>bitcoin.org/forum</p>
-			<p>reddit.com/r/Bitcoin</p>
-			<p>coindesk.com</p>
-			<p>bitcoin.org/forum</p>
-			<p>reddit.com/r/Bitcoin</p>
+			<p><a href="https://twitter.com/zachferland">reddit.com/r/Bitcoin</a></p>
+			<p><a href="https://twitter.com/zachferland">coindesk.com</a></p>
+			<p><a href="https://twitter.com/zachferland">bitcoin.org/forum</a></p>
+			<p><a href="https://twitter.com/zachferland">reddit.com/r/Bitcoin</a></p>
+			<p><a href="https://twitter.com/zachferland">coindesk.com</a></p>
+			<p><a href="https://twitter.com/zachferland">bitcoin.org/forum</a></p>
+			<p><a href="https://twitter.com/zachferland">reddit.com/r/Bitcoin</a></p>
 		</div>
 	</div>
 </div>
@@ -136,9 +141,9 @@
 <div class="footer">
 <div class="row">
 	<ul>
-		<li>CONTACT</li>
-		<li>ADVERTISING</li>
-		<li>DESIGNED BY</li>
+		<li><a href="https://twitter.com/zachferland">CONTACT</a></li>
+		<li><a href="https://twitter.com/zachferland">ADVERTISING</a></li>
+		<li><a href="https://twitter.com/zachferland">DESIGNED BY</a></li>
 	</ul>
 
 	<div class="built-in-boston"><%= image_tag('built-in-boston.png')%></div>
