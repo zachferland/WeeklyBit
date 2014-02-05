@@ -109,7 +109,7 @@
 	.join-others {
 		margin-left: 15px;
 		font-size: 14px;
-		margin-top: 15px;
+		margin-top: 10px;
 
 		.count {
 			font-weight: bold;
@@ -121,7 +121,8 @@
 		background: image-url("down-arrow.png") no-repeat center top;
 		width: 28px;
 		height: 20px;
-		margin-top: 100px; //120
+		margin-top: 90px; //120
+		cursor: pointer;
 	}
 }
 
