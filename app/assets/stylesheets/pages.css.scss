@@ -31,7 +31,7 @@
 }
 
 #notice {
-	background: url(/assets/highlight.png) repeat center top fixed;
+	background: image-url("highlight.png") repeat center top fixed;
 	height: 38px;
 	text-align: center;
 	color: #FFF;
@@ -235,7 +235,7 @@
 
 // PURPOSE SECTION -------------------------------------------------------------
 .purpose {
-		background: url(/assets/bg-network-2.png) repeat-y center top;
+		background: image-url("bg-network-2.png") repeat-y center top;
 		height: auto;
 		min-height: 651px;
 
