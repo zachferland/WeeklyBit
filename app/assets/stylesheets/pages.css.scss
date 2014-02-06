@@ -47,6 +47,13 @@
 	padding-right: 5px;
 	padding-top: 20px;
 
+	.bitcoin {
+		.COINWIDGETCOM_CONTAINER > a, .COINWIDGETCOM_CONTAINER > span {
+			-webkit-box-sizing: content-box;
+			box-sizing: content-box;
+		}
+	}
+
 	.share {
 		float: left;
 		// padding-right: 20px;
